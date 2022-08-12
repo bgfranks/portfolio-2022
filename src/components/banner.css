@@ -36,7 +36,6 @@
   width: 96%;
 }
 .banner button {
-  color: #fff;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -52,6 +51,9 @@
 }
 .banner button:hover svg {
   margin-left: 25px;
+}
+.banner button a {
+  color: #fff;
 }
 .banner img {
   animation: updown 3s linear infinite;

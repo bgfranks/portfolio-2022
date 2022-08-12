@@ -69,8 +69,10 @@ export default function Banner() {
                   <h2>
                     {`I'm a `} <span className='wrap'>{text}</span>
                   </h2>
-                  <button onClick={() => console.log('click')}>
-                    Let's Connect <ArrowRightCircle size={25} />
+                  <button>
+                    <a href='#connect'>
+                      Let's Connect <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}
