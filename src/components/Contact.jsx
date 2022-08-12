@@ -46,18 +46,17 @@ export default function Contact() {
 
     setFormDetails(intialFormDetails)
 
-    console.log(result.code)
-
     if (result.code === 200) {
       setStatus({ success: true, message: 'Message Sent Successfully' })
+
+      setTimeout(() => setStatus({}), 2000)
     } else {
       setStatus({
         success: false,
         message: 'Something whent wrong. Please try again later',
       })
+      setTimeout(() => setStatus({}), 2000)
     }
-
-    setTimeout()
   }
 
   return (
