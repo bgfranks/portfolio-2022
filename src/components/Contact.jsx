@@ -116,7 +116,7 @@ export default function Contact() {
                     <span>{buttonText}</span>
                   </button>
                   {status.message && (
-                    <Col>
+                    <Col className='status-message'>
                       <p
                         className={
                           status.success === false ? 'danger' : 'success'
