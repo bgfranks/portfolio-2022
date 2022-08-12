@@ -23,7 +23,7 @@ export default function Projects() {
         'A clone of the Google search using the Google Search Engine API and Tailwind CSS for styling',
       imgUrl: googleClone,
       githubUrl: 'https://github.com/bgfranks/google',
-      siteUrl: 'https://google-l8614igfb-bgfranks.vercel.app/',
+      siteUrl: 'https://google-khaki.vercel.app/',
     },
     {
       title: 'Expensely',
