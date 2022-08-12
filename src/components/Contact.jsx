@@ -32,13 +32,16 @@ export default function Contact() {
 
     setButtonText('Sending...')
 
-    let res = await fetch('http://localhost:5555/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'Application/json;charset=utf-8',
-      },
-      body: JSON.stringify(formDetails),
-    })
+    let res = await fetch(
+      'https://bgfranks-portfolio-server.herokuapp.com/contact',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'Application/json;charset=utf-8',
+        },
+        body: JSON.stringify(formDetails),
+      }
+    )
 
     setButtonText('Send')
 
